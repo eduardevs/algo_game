@@ -7,12 +7,30 @@ Hello to the algo game
 3. To look into documentation of an algo 
 4. Create a doc for an algo // this one is going to show which algos have no doc
 
+# PARCOUR
 
-- option 1
+- QUESTION 1
+
+Is a DS or algorithm ?
+
+options :
+
+algorithm
+
+data structure
+
+- QUESTION 2
+
 Algo name ?
+
 binary tree
 
-Is it a search, trie, graph, tree ?
-binary tree / create binary_tree.py file from template and place the file to in the dir tree/binary_tree.py
+- QUESTION 3
+ 
+Is it a search, sort, graph, tree ?
 
+binary tree 
 
+// create binary_tree.py file from template and place the file to in the dir tree/binary_tree.py
+
+# Create the implementation of the list_beginner_level.md
