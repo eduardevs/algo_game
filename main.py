@@ -52,12 +52,16 @@ def create_ds():
     ds_name = f"{ds_name}.py"
     copy_rename_pathlib('./template.py', './play/data-structures', ds_name)
 
+def create_doc():
+    doc_name = input("which doc you want to write ?")
+    doc_name = f"{doc_name}.md"
+    copy_rename_pathlib('./doc_template.md', './play/doc/', doc_name)
     
 
 def start_game():
     
     while(True):
-        print("Welcome to the algorithms game \n choice an option \n 1. Create an algo \n 2. Create data structure \n")
+        print("Welcome to the algorithms game \n choice an option \n 1. Create an algo \n 2. Create data structure \n 3. Write doc of algo or data structure")
         choice = input("Select an option to start")
         if choice == "1":
             create_algo()
@@ -65,6 +69,10 @@ def start_game():
 
         elif choice == "2":
             create_ds()
+            break
+
+        elif choice == "3":
+            create_doc()
             break
 
 
